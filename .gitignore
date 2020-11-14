@@ -1,0 +1,14 @@
+
+CN1Toolbox/.qmake.stash
+CN1Toolbox/CN1Toolbox.pro.user
+CN1Toolbox/CN1Toolbox_resource.rc
+CN1Toolbox/darcula.css
+debug/
+release/
+.idea/
+extract-updates/extract-updates.exe
+CN1Toolbox/ui_toolbox.h
+CN1Toolbox/Makefile.Release
+CN1Toolbox/Makefile.Debug
+CN1Toolbox/Makefile
+CN1Toolbox/extract-updates.exe
