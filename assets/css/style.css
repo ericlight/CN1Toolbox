@@ -1,0 +1,24 @@
+.noir {
+    background-color: #1f2326;
+    /*background-color: #0d2e97;*/
+    color: #ffffff;
+    height: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+p, ul>li, ol>li {
+    font-size: 16px;
+}
+
+.footer {
+    height: 50px;
+    background-color: #2e6788;
+    color: #a5e2f6;
+    text-align: center;
+    padding-top: 10px;
+}

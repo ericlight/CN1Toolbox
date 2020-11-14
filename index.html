@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Codename One Toolbox - Manage all your Codename One tools from one place.</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="container-fluid noir">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1>
+                    <strong>Codename One Toolbox</strong>
+                </h1>
+                <p>
+                    <span style="font-size: 20px; color: #adacae">Manage all your Codename One tools from one place.</span>
+                </p><br>
+                <div class="row">
+                    <div class="col-md-12">
+                        <a href="#downloads" class="btn btn-danger"><i class="glyphicon glyphicon-download"></i> Download Toolbox</a>
+                        <a href="http://github.com/ericlight/CN1Toolbox" class="btn btn-default">Source code on GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <article class="col-md-10">
+            <a name="overview"><h3 style="color: #333333">Overview :</h3></a>
+            <p class="text-muted mb-5">
+            	Codename One Toolbox is a small application that you can use to manage different tools built for Codename One developers.
+                Currently, you can use it to launch and to update CodenameOne Linguist and CodenameOne Extensions. <br>
+                PS: You don't have to download Toolbox to be able to use these two tools. You can download them separately if you want.
+            </p>
+            <p>
+            <ul class="text-muted mb-5">
+                <li>CodenameOne Linguist - <a href="https://ericlight.github.io/CN1Linguist" target="_blank">https://ericlight.github.io/CN1Linguist</a></li>
+                <li>CodenameOne Extensions - <a href="https://ericlight.github.io/CN1Extensions" target="_blank">https://ericlight.github.io/CN1Extensions</a></li>
+                <li>More tools will come later</li>
+            </ul>
+            </p>
+
+            <a name="features"><h3 style="color: #333333">Features :</h3></a>
+            <ul class="text-muted mb-5">
+                <li>Launch a tool (CN1 Linguist and CN1 Extensions)</li>
+                <li>Update a tool (CN1 Linguist and CN1 Extensions)</li>
+                <li>Get quick access to the homepage and GitHub page of the tool</li>
+            </ul>
+
+
+            <a name="roadmap"><h3 style="color: #333333">Roadmap :</h3></a>
+            <ul class="text-muted mb-5">
+                <li><b>Automatic update for tools</b></li>
+                <li><b>News about tools</b></li>
+                <li><b>Install new tools</b></li>
+                <li><b>Downgrade to a previous version of any tool</b></li>
+                <li>Build for Mac OS</li>
+                <li>Build for Linux</li>
+                <li>Dark theme for the user interface</li>
+                <li>Translate the app in others languages - I need help for that because i can only speak french and english</li>
+            </ul>
+
+            <a name="require"><h3 style="color: #333333">Requirements :</h3></a>
+            <ul class="text-muted mb-5">
+                <li>Windows PC - I'am a Windows user so this <a href="#downloads">first release</a> of Codename One Toolbox is built for Windows.
+                    The source code is completely portable and cross-platform (written in C++/Qt with a little part in Go) so if you are a Mac OS or Linux user, please clone the source code on GitHub and contribute by building it
+                    for Mac OS and Linux users. I can help you with some instructions to do it if you want. Check the <a href="#contrib">Contributions</a> section for more informations. Thanks :)
+                </li>
+            </ul>
+
+            <a name="downloads"><h3 style="color: #333333">Downloads :</h3></a>
+            <ul class="text-muted mb-5">
+                <li>Windows version : <a href="LIEN ICI"><strong>CN1Toolbox-1.0-windows-x64.zip</strong></a></li>
+                <li>Mac OS version : <strong>coming...</strong></li>
+                <li>Linux version :  <strong>coming...</strong></li>
+            </ul>
+
+            <a name="screenshots"><h3 style="color: #333333">Screenshots :</h3></a>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="assets/images/s1.png">
+                </div>
+
+                <div class="col-md-4">
+                    <img src="assets/images/s2.png">
+                </div>
+
+                <div class="col-md-4">
+                    <img src="assets/images/s3.png">
+                </div>
+            </div>
+
+            <a name="author"><h3 style="color: #333333">Author :</h3></a>
+            <p class="text-muted mb-5">
+                My name is Eric, i use Codename One to develop mobile apps since the beginning and i'am also the author of the first book (written in french) on Codename One. I still to believe this framework deserves more visibility and users so i
+                decide to build complete and easy-to-use tools to simplify the life of Codename One developers. To send me a message, please use <a href="mailto:codeureric@gmail.com">codeureric@gmail.com</a>
+            </p>
+
+            <a name="contrib"><h3 style="color: #333333">Contributions :</h3></a>
+            <p class="text-muted mb-5">
+                You can suggest a feature here on <a href="https://github.com/ericlight/CN1Toolbox">GitHub</a>. Just open an RFE and explain your feature idea.
+                You can also open an issue if you find a bug or contribute to the translation of this tool in your language.
+            </p>
+            <div class="alert alert-danger" role="alert">
+                <p>
+                    <strong>Need help to build the Mac OS and Linux versions. The source code is portable and is ready to be built. If you are interested to help in this way, please read the following instructions:</strong>
+                </p>
+
+                <p>
+                    To compile the source code, you will need to download the QtCreator IDE which already contains the Qt framework. Choose the Mac OS or Linux
+                    version and help with a build for this platform. Here are the links for the download:
+                    <br>
+                     - <a href="http://download.qt.io/archive/qt/5.14/5.14.2/" target="_blank">http://download.qt.io/archive/qt/5.14/5.14.2/</a> (recommended to get the 5.14 offline installer version)<br>
+                     - <a href="https://www.qt.io/offline-installers" target="_blank">https://www.qt.io/offline-installers</a><br>
+
+                    <br>
+                    Once QtCreator installed in your computer, clone the source code of the project and open the ".pro" file to open the project and to compile.
+                    If you want to send me a message, you can do it on <a href="mailto:codeureric@gmail.com">codeureric@gmail.com</a>. Thanks
+                </p>
+
+            </div>
+
+        </article>
+
+        <article class="col-md-2">
+            <div class="row">
+                <h2>&nbsp;</h2>
+                <ol>
+                    <li><a href="#overview">Overview</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#roadmap">Roadmap</a></li>
+                    <li><a href="#require">Requirements</a></li>
+                    <li><a href="#downloads">Downloads</a></li>
+                    <li><a href="#screenshots">Screenshots</a></li>
+                    <li><a href="#author">Author</a></li>
+                    <li><a href="#contrib">Contributions</a></li>
+                </ol>
+
+            </div>
+        </article>
+    </div>
+</div>
+
+<div class="container-fluid footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <strong>&copy; 2020</strong></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
