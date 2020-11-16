@@ -29,7 +29,7 @@ PS: You don't have to download Toolbox to be able to use these two tools. You ca
 - Translate the app in others languages - I need help for that because i can only speak french and english
 
 ### Requirements :
-- Windows PC - I'am a Windows user so this [first release](https://github.com/ericlight/CN1Toolbox/releases/download/1.0/CN1Toolbox-1.0-windows-x64.zip) of Codename One Toolbox is built for Windows. The source code is completely portable and cross-platform (written in C++/Qt with a little part in Go) so if you are a Mac OS or Linux user, please clone the source code on GitHub and contribute by building it for Mac OS and Linux users. I can help you with some instructions to do it if you want. Check the Contributions section for more informations. Thanks :)
+- Windows PC - I'am a Windows user so this [first release](https://github.com/ericlight/CN1Toolbox/releases/tag/1.0) of Codename One Toolbox is built for Windows. The source code is completely portable and cross-platform (written in C++/Qt with a little part in Go) so if you are a Mac OS or Linux user, please clone the source code on GitHub and contribute by building it for Mac OS and Linux users. I can help you with some instructions to do it if you want. Check the Contributions section for more informations. Thanks :)
 
 ### Screenshots :
 ![Image](screenshots/s1.png "")
